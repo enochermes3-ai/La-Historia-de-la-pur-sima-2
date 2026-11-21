@@ -1,0 +1,6 @@
+COMO OBTENER EL APK
+1. Crea un repositorio nuevo en github.com y sube TODO el contenido de esta carpeta (incluida la carpeta .github).
+   Si .github no se sube, crea el archivo .github/workflows/build-apk.yml con Add file > Create new file y pega el contenido de build-apk.yml.
+2. Ve a la pestaña Actions > Build APK > Run workflow (o se ejecuta solo al subir archivos).
+3. Cuando termine (unos 5 min), entra a la ejecucion y descarga el artefacto historia-purisima-apk (zip con app-debug.apk).
+4. Pasa el APK al celular, permite instalar de origen desconocido e instala.
